@@ -1,17 +1,15 @@
 //imports
-let express = require("express");
+
 const { EventEmitter } = require("events");
 let httpmod = require("http");
 
 //inits
 const eventMaker = new EventEmitter();
-let app = express();
+
 
 //imports and inittializations are on top
 
-app.get("/", (req, res) => {
-    res.send("home page bro");
-});
+
 
 function spacer() {
     console.log(".");
@@ -50,12 +48,10 @@ function playgroundServer() {
     //will comeback to this later or not
 }
 function psuedomain() {
-    // app.listen(7000, () => {
-    //     console.log("someone connect5ed");
-    // });
+
 
     // playgroundServer();
     eventtester();
 }
-
+//'tjkirch', darkblood
 psuedomain();

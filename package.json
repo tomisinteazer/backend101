@@ -9,7 +9,7 @@
     },
     "devDependencies": {},
     "scripts": {
-        "start": "nodemon start index.js",
+        "start": "nodemon start server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
